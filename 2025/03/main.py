@@ -59,17 +59,12 @@ def part_two(file):
             max_batteries.append(max_battery)
             start_index = max_battery[1] + 1
             # print("max batteries:", len(max_batteries), max_batteries, "start index:", start_index)
-        print(
-            "bank:",
-            bank,
-            "joltage:",
-            int("".join([str(battery[0]) for battery in max_batteries])),
-        )
+
         total_joltage += int("".join([str(battery[0]) for battery in max_batteries]))
 
     return total_joltage
 
 
 if __name__ == "__main__":
-    print("part_one:", part_one("03/input.txt"))
-    print("part_two:", part_two("03/input.txt"))
+    print("part_one:", part_one("2025/03/input.txt"))
+    print("part_two:", part_two("2025/03/input.txt"))

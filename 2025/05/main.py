@@ -63,5 +63,5 @@ def part_two(file):
 
 
 if __name__ == "__main__":
-    print("part_one:", part_one("05/input.txt"))
-    print("part_two:", part_two("05/input.txt"))
+    print("part_one:", part_one("2025/05/input.txt"))
+    print("part_two:", part_two("2025/05/input.txt"))
