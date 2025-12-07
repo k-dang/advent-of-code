@@ -4,7 +4,7 @@ This repository contains my solutions to the [Advent of Code](https://adventofco
 
 ## Setup
 
-This repository uses uv (https://uv.run/) as a python environment and package manager.
+This repository uses [uv](https://uv.run/) as the python environment and package manager.
 
 Each day has it's own directory and can be run with `uv run <name-of-python-file>`.
 
