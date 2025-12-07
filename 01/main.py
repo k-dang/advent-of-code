@@ -79,5 +79,4 @@ def part_two(file):
 
 if __name__ == "__main__":
     print("part_one:", part_one("01/input.txt"))  # 984
-
     print("part_two:", part_two("01/input.txt"))  # 5657
